@@ -74,17 +74,20 @@
       const pass = document.getElementById('password').value;
       const message = document.getElementById('message');
 
-      if (user === 'Sammy' && pass === '12345') {
-        alert('Login successful!');
-        window.location.href = 'homepage.html'; // Redirect to homepage
-      } else if (user === 'Sammy') {
-        message.textContent = 'Incorrect username';
+      if (user === 'Sammy') {
+        if (pass === '12345') {
+           alert('Login successful!'); 
+            window.location.href = "bookreservation.html"; // redirect to homepage
+        } else {
+            message.textContent = 'Incorrect password';
+        }    
+      } else if (user === 'Admin') {
+        message.textContent = 'Incorrect username'; // specific message for admin
       } else {
-        message.textContent = 'Incorrect password';
-      }
-      // Redirect to the bookreservation
-                window.location.href = "bookreservation.html";
+        message.textContent = 'Incorrect password'; // General inccorect username message 
+     } 
     }
+    
   </script>
 </body>
 </html>
