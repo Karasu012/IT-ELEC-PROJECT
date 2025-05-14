@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Library Login</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://www.shutterstock.com/shutterstock/videos/1095821317/thumb/8.jpg?ip=x480') center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+   header {
+
+    color: white;
+    padding: 20;
+    font-size: 30px;
+    top: 0;
+    position: absolute;
+
+   }
+
+   S {
+    margin: 20px 0;
+    color: white;
+
+   }
+   
+   button {
+    background-color: antiquewhite
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+   }
+
+   button:hover {
+    background-color: antiquewhite;
+   }
+
+</Style>
+</head>
+<body>
+    <header>
+        <h1>BOOK RESERVATION</h1>
+        <a href="sammy2.html">Home</a> 
+        <a href="Book.html">Book</a>
+        <a href="Contact.html">Contact</a>
+    
+    </header>
+</body>
+
+
